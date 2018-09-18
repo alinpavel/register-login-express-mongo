@@ -8,17 +8,18 @@ For documentation and instructions check out http://jasonwatmore.com/post/2018/0
 # API DOCS
 
 ## /users/register
-
+```json
 {
 	"firstName": "1",
 	"lastName": "2",
 	"username": "3",
 	"password": "4"
 }
-
+```
 ## /users/authenticate
-
+```json
 {
 	"username": "1",
 	"password": "2"
 }
+```
